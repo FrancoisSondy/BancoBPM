@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info_act">
+
+    <VideoView
+        android:id="@+id/vd"
+        android:layout_width="418dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="418dp"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="251dp"
+            android:layout_height="162dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:text="Bienvenido a Banco BPM dode podras tu finanzas y solicitar los prestamos de nuestro bancos, ofrecemos lo mejor Beneficios para nuestro clientes no esperes mas y se parte de uno de los bancos mas grande de nivel de latino America y comenza a ganar con nosotros y complir tus sueños. " />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="129dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="100dp"
+            android:onClick="Maps"
+            app:srcCompat="@drawable/lc" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
