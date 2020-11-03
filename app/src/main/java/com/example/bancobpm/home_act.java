@@ -56,8 +56,8 @@ public class home_act extends AppCompatActivity {
     public void Prestamos (View v)
     {
         ArrayList<String> listaclientes = new ArrayList<String>();
-        listaclientes.add("AXEL");
-        listaclientes.add("ROXANA");
+        listaclientes.add("BETZABE");
+        listaclientes.add("MATIAS");
 
         ArrayList<String> listaCredito = new ArrayList<String>();
         listaCredito.add("CREDITO HPOTECARIO");

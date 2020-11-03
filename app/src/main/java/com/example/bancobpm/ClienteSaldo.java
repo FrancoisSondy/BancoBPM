@@ -3,21 +3,21 @@ package com.example.bancobpm;
 public class ClienteSaldo {
 
 
-    private int Axel;
-    private int Roxana;
+    private int BetZabe;
+    private int Matias;
 
     public ClienteSaldo()
     {
-        Axel= 750000;
-        Roxana = 900000;
+        BetZabe= 750000;
+        Matias= 900000;
     }
 
-    public int getAxel()
+    public int getBetZabe()
     {
-        return Axel;
+        return BetZabe;
     }
-    public int getRoxana()
+    public int getMatias()
     {
-        return Roxana;
+        return Matias;
     }
 }

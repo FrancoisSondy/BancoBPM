@@ -40,30 +40,30 @@ public class prestamo_act extends AppCompatActivity {
 
 
         ClienteSaldo  saldo = new ClienteSaldo();
-        if (cliente.equals("AXEL") && credito.equals("CREDITO HPOTECARIO"))
+        if (cliente.equals("BETZABE") && credito.equals("CREDITO HPOTECARIO"))
         {
-           int total = saldo.getAxel() + 1000000;
+           int total = saldo.getBetZabe() + 1000000;
             text.setText("El Monto es:"
                     + total);
         }
 
-        if (cliente.equals("AXEL") && credito.equals("CREDITO AUTOMOTRIZ"))
+        if (cliente.equals("BETZABE") && credito.equals("CREDITO AUTOMOTRIZ"))
         {
-            int total = saldo.getAxel() + 500000;
+            int total = saldo.getBetZabe() + 500000;
             text.setText("El Monto es :"
                     +total);
 
         }
-        if (cliente.equals("ROXANA") && credito.equals("CREDITO HPOTECARIO"))
+        if (cliente.equals("MATIAS") && credito.equals("CREDITO HPOTECARIO"))
         {
-            int total = saldo.getRoxana() + 1000000;
+            int total = saldo.getMatias() + 1000000;
             text.setText("El Monto  es:"
                     +total);
         }
 
-        if (cliente.equals("ROXANA") && credito.equals("CREDITO AUTOMOTRIZ"))
+        if (cliente.equals("MATIAS") && credito.equals("CREDITO AUTOMOTRIZ"))
         {
-            int total = saldo.getRoxana() + 500000;
+            int total = saldo.getMatias() + 500000;
             text.setText("El Monto es :"
                     +total);
         }
@@ -76,30 +76,30 @@ public class prestamo_act extends AppCompatActivity {
 
 
         ClienteSaldo  saldo = new ClienteSaldo();
-        if (cliente.equals("AXEL") && credito.equals("CREDITO HPOTECARIO"))
+        if (cliente.equals("BETZABE") && credito.equals("CREDITO HPOTECARIO"))
         {
-            int total = (saldo.getAxel() + 1000000) /12;
+            int total = (saldo.getBetZabe() + 1000000) /12;
             text.setText("La Deuda Es De:"
                     + total);
         }
 
-        if (cliente.equals("AXEL") && credito.equals("CREDITO AUTOMOTRIZ"))
+        if (cliente.equals("BETZABE") && credito.equals("CREDITO AUTOMOTRIZ"))
         {
-            int total = (saldo.getAxel() + 500000)/8;
+            int total = (saldo.getBetZabe() + 500000)/8;
             text.setText("La Deuda Es De :"
                     +total);
 
         }
-        if (cliente.equals("ROXANA") && credito.equals("CREDITO HPOTECARIO"))
+        if (cliente.equals("MATIAS") && credito.equals("CREDITO HPOTECARIO"))
         {
-            int total = (saldo.getRoxana() + 1000000)/12;
+            int total = (saldo.getMatias() + 1000000)/12;
             text.setText("La Deuda Es De :"
                     +total);
         }
 
-        if (cliente.equals("ROXANA") && credito.equals("CREDITO AUTOMOTRIZ"))
+        if (cliente.equals("MATIAS") && credito.equals("CREDITO AUTOMOTRIZ"))
         {
-            int total = (saldo.getRoxana() + 500000)/8;
+            int total = (saldo.getMatias() + 500000)/8;
             text.setText("La Deuda Es De :"
                     +total);
 
